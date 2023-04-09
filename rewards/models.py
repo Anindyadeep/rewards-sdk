@@ -83,7 +83,7 @@ class DeepNet(nn.Module):
         # give the options to load from the default checkpoint folder path and files 
         # for this version the default checkpoint folder path will be ./saved_models and the latest model will be taken in consideration 
         
-        elif os.path.exists(DEFAULT_MODEL_PATH):
+        elif checkpoint_folder_path and os.path.exists(DEFAULT_MODEL_PATH):
             if len(os.listdir(DEFAULT_MODEL_PATH)) > 0: 
                 _default_model_path = os.path.join(
                     DEFAULT_MODEL_PATH, 
