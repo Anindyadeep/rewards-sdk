@@ -1,5 +1,4 @@
 torch
-wandb 
 pandas 
 numpy 
 pygame 

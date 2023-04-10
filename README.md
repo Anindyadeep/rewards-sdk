@@ -123,17 +123,6 @@ configs = workflow.WorkFlowConfigurations(
 
 
 So above is a quick overview of how to use different reward configurations. Now once configuration part is done, load those configuration to `RLWorkFlow()` and run for a single episodes. 
-**NOTE:** Make sure you have `weights and biases` installed. You can install that using:
-
-```bash
-pip install wandb
-```
-
-After this log in / create a new account. Then authorize it inside the command line by typing
-
-```bash
-wandb auth
-```
 
 After this you are ready to run the above code:
 
