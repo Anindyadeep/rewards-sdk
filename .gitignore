@@ -16,3 +16,5 @@ dist
 test.py
 models
 setup.py
+.vscode/
+rewards/envs/c.py
