@@ -126,10 +126,8 @@ Setting up rewards is very easy. All you have to do is to first create a virtual
 **`[LINUX]`**
 
 ```bash
-```bash
 $ virtualenv .rewards
 $ source .rewards/bin/activate
-```
 ```
 
 **`[WINDOWS]`**
