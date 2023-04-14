@@ -33,7 +33,7 @@ This should install all the dependencies and our sdk `rewards:v1.0.0`.
 **`[windows]`** 
 
 For installation in windows, it's also simple. All you have to do is just clone the repository same as before. Then create a new virtual environment. 
-
+terminilogies
 ```bash
 virtualenv .venv
 ```
